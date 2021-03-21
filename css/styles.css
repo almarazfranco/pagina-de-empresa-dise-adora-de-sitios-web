@@ -1,0 +1,665 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+
+.container{
+    width: 1000px;
+    max-width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.gran-container{
+    width: 100%;
+    background: url(../img/background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+.the-background {
+    background: rgba(000, 000, 000, 0.6);
+    width: 100%;
+}
+
+
+/* ----- ----- ----- Menu - Contacto ----- ----- ----- */
+.menu-contacto{
+    width: 100%;
+    background: #222222;
+    display: flex;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+
+.menu-contacto .info{
+    display: flex;
+    align-items: center;
+    padding: 11px 15px;
+}
+
+
+.menu-contacto .info a{
+    display: inline-block;
+    text-decoration: none;
+    color: #949494;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+.menu-contacto .info p{
+    color: #D5D8DC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.menu-contacto .info .correo{
+    font-size: 20px;
+}
+
+
+
+/* ----- ----- ----- Header ----- ----- ----- */
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+
+header .logo{
+    padding-top: 10px;
+    width: 60px;
+    margin-left: 30px;
+}
+
+
+header .logo img{
+    width: 100%;
+    vertical-align: top;
+}
+
+
+header .nav{
+    display: flex;
+    margin-right: 30px;
+}
+
+
+header .nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+}
+
+
+header .nav a:hover{
+    color: #03a9f4;
+    border-bottom: 2px solid #03a9f4;
+}
+
+
+/* ----- ----- ----- ACERCA DE ----- ----- ----- */
+.the-background .container .acerca-de {
+    padding: 230px 0 270px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.the-background .container .acerca-de .informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.the-background .container .acerca-de .informacion h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+
+.the-background .container .acerca-de .informacion p{
+    text-align: center;
+    width: 65%;
+    color: #EAECEE;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+
+.the-background .container .acerca-de .informacion p .resaltar{
+    color: #F5B041;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: 0.4s;
+}
+
+
+.the-background .container .acerca-de .informacion p .resaltar:hover{
+    border-bottom: 2px solid #F5B041; 
+}
+
+
+.the-background .container .acerca-de .botones{
+    display: flex;
+    justify-content: center;
+}
+
+
+.the-background .container .acerca-de .botones .botones-estilos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    border: 2px solid #03a9f4;
+    margin: 0 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+
+.the-background .container .acerca-de .botones .botones-estilos a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 12px 40px;
+}
+
+
+.the-background .container .acerca-de .botones .botones-estilos:hover{
+    background: #03a9f4;
+    cursor: pointer;
+}
+
+
+/* ----- ----- ----- MAIN ----- ----- ----- */
+.main{
+    width: 100%;
+    background: #EAEDED;
+    overflow: visible;
+}
+
+
+.main .container{
+    overflow: visible;
+}
+
+
+.main .container .trabajos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+
+.main .container .trabajos .trabajo{
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #FFFFFF;
+    width:27%;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+
+.main .container .trabajos .trabajo:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 8px rgba(111, 111, 111, 1);
+    cursor: pointer;
+}
+
+
+.main .container .trabajos .trabajo .imagen{
+    width: 100%;
+}
+
+
+.main .container .trabajos .trabajo .imagen img{
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+.main .container .trabajos .trabajo:hover .imagen img{
+    opacity: 1;
+}
+
+
+.main .container .trabajos .trabajo .descripcion{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.main .container .trabajos .trabajo .descripcion a{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    color: #03a9f4;
+    font-size: 24px;
+}
+
+
+.main .container .trabajos .trabajo .descripcion p{
+    margin-top: 10px;
+    color: #555555;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+/* ----- ----- ----- Footer ----- ----- ----- */
+footer{
+    width: 100%;
+    background: #222222;
+    display: flex;
+    overflow: hidden;
+}
+
+
+footer .border {
+    width: 50%;
+    padding: 10px;
+}
+
+
+footer .border .autor{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    border-right: 2px solid #AEB6BF;
+    font-size: 20px;
+}
+
+
+footer .border .autor p{
+    color: #ABB2B9;
+}
+
+
+footer .redes-sociales{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .redes-sociales a{
+    font-size: 50px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: 0.4s;
+    margin: 0 5px 0 5px;
+    /* color: #ABB2B9; */
+}
+
+
+footer:hover .redes-sociales a{
+    color: #ABB2B9;
+}
+
+
+footer .redes-sociales .facebook{
+    color: #3b5998;
+}
+
+footer .redes-sociales .twitter{
+    color: #1da1f2;
+}
+
+footer .redes-sociales .instagram{
+    color: #ffdc80;
+}
+
+
+footer .redes-sociales .facebook:hover{
+    color: #3b5998;
+}
+
+footer .redes-sociales .twitter:hover{
+    color: #1da1f2;
+}
+
+footer .redes-sociales .instagram:hover{
+    color: #ffdc80;
+}
+
+
+/* ----- ----- ----- Whatsapp ----- ----- ----- */
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(18, 140, 126, 0.9);
+    border-radius: 3px;
+}
+
+
+.whatsapp a{
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 16px 30px;
+}
+
+
+.whatsapp:hover{
+    background: rgba(18, 140, 126, 1);
+}
+
+
+/* ----- ----- ----- RESPONSIVE ----- ----- ----- */
+@media screen and (max-width:1200px){
+/* ----- ----- ----- Whatsapp ----- ----- ----- */
+    .whatsapp{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+/* ----- ----- ----- MAIN ----- ----- ----- */
+    .main .container .trabajos{
+        display: flex;
+        justify-content: center;
+    }
+
+    .main .container .trabajos .trabajo{
+        width: 60%;
+    }
+
+
+/* ----- ----- ----- Footer ----- ----- ----- */
+    footer .border .autor{
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:840px){
+/* ----- ----- ----- Menu - Contacto ----- ----- ----- */
+    .menu-contacto{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+
+/* ----- ----- ----- Header ----- ----- ----- */
+    header{
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+
+    header .logo{
+        display: none;
+    }
+
+
+    header .nav {
+        margin: 0;
+    }
+
+
+/* ----- ----- ----- ACERCA DE ----- ----- ----- */
+    .the-background .container .acerca-de .informacion h1{
+        font-size: 55px;
+    }
+
+
+    .the-background .container .acerca-de .informacion p{
+        width: 85%;
+    }
+
+
+/* ----- ----- ----- MAIN ----- ----- ----- */
+    .main .container .trabajos .trabajo{
+        width: 80%;
+    } 
+
+
+/* ----- ----- ----- Footer ----- ----- ----- */
+    footer .border .autor{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:650px){
+/* ----- ----- ----- Menu - Contacto ----- ----- ----- */
+    .menu-contacto{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .menu-contacto .info a{
+        font-size: 30px;
+    }
+
+
+    .menu-contacto .info .direccion{
+        margin-left: 80px;
+    }
+
+
+    .menu-contacto .info .correo{
+        font-size: 37px;
+        margin-right: 80px;
+
+    }
+
+
+    .menu-contacto .info p{
+        display: none;
+    }
+
+
+/* ----- ----- ----- Header ----- ----- ----- */
+    header .nav{
+        margin-top: 20px;
+    }
+
+
+    header .nav .esconder{
+        display: none;
+    }
+
+
+/* ----- ----- ----- ACERCA DE ----- ----- ----- */
+    .the-background .container .acerca-de {
+        padding: 170px 0 210px 0;
+    }    
+
+
+/* ----- ----- ----- MAIN ----- ----- ----- */
+    .main .container .trabajos{
+        padding: 30px 0;
+    }
+
+
+    .main .container .trabajos .trabajo{
+        width: 100%;
+    }    
+
+
+/* ----- ----- ----- Footer ----- ----- ----- */
+    footer{
+        flex-direction: column;
+    }
+
+
+    footer .border{
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+
+    footer .border .autor{
+        border-right: none;
+        border-bottom: 2px solid #AEB6BF;
+        font-size: 20px;
+        padding: 40px 0px;
+    }
+
+
+    footer .redes-sociales{
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+
+@media screen and (max-width:450px){
+/* ----- ----- ----- Menu - Contacto ----- ----- ----- */
+    .main .container .trabajos .trabajo:hover{
+        transform: scale(1);
+    }
+
+
+    .menu-contacto .info .direccion{
+        margin-left: 30px;
+    }
+
+
+    .menu-contacto .info .correo{
+        font-size: 37px;
+        margin-right: 30px;
+
+    }
+
+
+/* ----- ----- ----- Header ----- ----- ----- */
+    header{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    header .nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    header .nav a{
+        display: inline-block;
+        width: 100%;
+        background: rgba(000, 000, 000, 0.5);
+        margin: 0;
+        padding: 10px 0 10px 0;
+        border: none;
+        border-top: 1px solid rgba(111, 111, 111, 1);
+        border-bottom: 1px solid rgba(111, 111, 111, 1);
+    }
+
+
+    header .nav a:hover{
+        background: rgba(000, 000, 000, 0.2);
+        border-top: 1px solid rgba(111, 111, 111, 1);
+        border-bottom: 1px solid rgba(111, 111, 111, 1);
+    }
+
+
+/* ----- ----- ----- ACERCA DE ----- ----- ----- */
+    .the-background .container .acerca-de .informacion h1{
+        font-size: 40px;
+    }
+
+
+    .the-background .container .acerca-de .informacion p{
+        width: 95%;
+        font-size: 16px;
+    }
+
+
+    .the-background .container .acerca-de {
+            padding: 120px 0 170px 0;
+        } 
+
+
+    .the-background .container .acerca-de .botones .botones-estilos{
+        margin: 0 5px;
+        width: 140px;
+        height: 50px;
+    }
+
+
+    .the-background .container .acerca-de .botones .botones-estilos a{
+        font-weight: 500px;
+        font-size: 18px;
+        padding: 10px 28px;
+    }
+
+
+/* ----- ----- ----- MAIN ----- ----- ----- */
+    .main .container .trabajos{
+        padding: 10px 0px;
+    }
+
+
+/* ----- ----- ----- Footer ----- ----- ----- */   
+    footer .autor{
+        font-size: 18px;
+        text-align: center;
+    }
+
+
+    footer .autor .nombre{
+        display: block;
+        margin-top: 10px;
+    }
+}
